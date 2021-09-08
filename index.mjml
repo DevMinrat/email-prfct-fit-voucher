@@ -1,0 +1,140 @@
+<mjml>
+  <mj-head>
+    <mj-title>Prfc Fit Voucher</mj-title>
+    <mj-style inline="inline">
+      .avatar {width: 48px !important} .avatar-all {width: 140px !important;
+      text-align: center;} .avatar td {padding: 0 !important;} .logo {width:
+      135px !important;} .logo td {padding: 5px 5px 0 0 !important;}
+      .avatar-text td {padding: 0 0 0 10px !important;} .avatar-text {padding:
+      10px 0 0 0 !important; width: auto !important}
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F4F4F4;">
+    <mj-wrapper padding="20px 20px">
+      <mj-section
+        padding="48px 40px"
+        background-color="#ffffff"
+        border-radius="8px 8px 0 0"
+      >
+        <mj-group css-class="avatar-all">
+          <mj-column width="48px" css-class="avatar">
+            <mj-image width="48px" src="assets/images/avatar.png" alt="" />
+          </mj-column>
+          <mj-column css-class="avatar-text">
+            <mj-text
+              align="left"
+              font-family="Inter, sans-serif"
+              font-weight="bold"
+              font-size="14px"
+              line-height="17px"
+              color="#0C1014"
+            >
+              Jane Smith
+            </mj-text>
+            <mj-text
+              align="left"
+              font-family="Inter, sans-serif"
+              font-weight="bold"
+              font-size="10px"
+              line-height="12px"
+              color="#7D7D7D"
+            >
+              Co-Founder
+            </mj-text>
+          </mj-column>
+        </mj-group>
+        <mj-column css-class="logo">
+          <mj-button href="#" background-color="transparent" align="right">
+            <img width="115px" src="assets/images/logo.png" alt="" />
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section
+        padding="0px"
+        background-color="#ffffff"
+        border-radius="8px 8px 0 0"
+      >
+        <mj-column>
+          <mj-image width="448px" src="assets/images/main-img.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section
+        padding="10px 31px"
+        background-color="#ffffff"
+        border-radius="8px 8px 0 0"
+      >
+        <mj-column>
+          <mj-text
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="24px"
+            line-height="29px"
+            color="#0C1014"
+          >
+            Save €10 on your next order
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section
+        padding="0px 31px"
+        background-color="#ffffff"
+        border-radius="8px 8px 0 0"
+      >
+        <mj-column>
+          <mj-text
+            font-family="Inter, sans-serif"
+            font-size="16px"
+            line-height="22px"
+            color="#515759"
+          >
+            Hello Herbert Jones. Welcome to the PRFCT FIT Store! I’m Jane Stith,
+            Co-Founder of
+            <a style="color: #1890ff; text-decoration: none" href="prfctfit.com"
+              >prfctfit.com</a
+            >. We’re happy to have you here :) We’ve prepared a little gift for
+            you — €10 off your next order.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section
+        padding="0px 31px"
+        background-color="#ffffff"
+        border-radius="8px 8px 0 0"
+      >
+        <mj-column>
+          <mj-text
+            font-family="Inter, sans-serif"
+            font-size="16px"
+            line-height="22px"
+            color="#515759"
+          >
+            And if that isn’t enough, we’ll be keeping you updated with the
+            latest releases, fashion trends, special offers and more.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section
+        padding="10px 31px"
+        background-color="#ffffff"
+        border-radius="8px 8px 0 0"
+      >
+        <mj-column>
+          <mj-text
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="24px"
+            line-height="29px"
+            color="#0C1014"
+          >
+            Your €10 Voucher Code*:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
