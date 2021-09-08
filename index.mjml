@@ -6,7 +6,16 @@
       text-align: center;} .avatar td {padding: 0 !important;} .logo {width:
       135px !important;} .logo td {padding: 5px 5px 0 0 !important;}
       .avatar-text td {padding: 0 0 0 10px !important;} .avatar-text {padding:
-      10px 0 0 0 !important; width: auto !important}
+      10px 0 0 0 !important; width: auto !important} .use-it {padding: 15px 0
+      !important} .code {padding: 10px 0 !important} .discover-more td {padding:
+      8px 0 !important; width: 108px !important} .discover-more {width: 108px
+      !important} .price {padding: 0 25px !important;} .company td {padding: 2px
+      0px !important;} .company-first {padding: 12px 0px 0px !important;} .unsub
+      td {padding: 5px 5px !important}
+    </mj-style>
+    <mj-style>
+      @media only screen and (max-width: 480px) { .product-text div {
+      text-align: center !important; } }
     </mj-style>
   </mj-head>
   <mj-body background-color="#F4F4F4;">
@@ -50,21 +59,13 @@
         </mj-column>
       </mj-section>
 
-      <mj-section
-        padding="0px"
-        background-color="#ffffff"
-        border-radius="8px 8px 0 0"
-      >
+      <mj-section padding="0px" background-color="#ffffff">
         <mj-column>
           <mj-image width="448px" src="assets/images/main-img.png" alt="" />
         </mj-column>
       </mj-section>
 
-      <mj-section
-        padding="10px 31px"
-        background-color="#ffffff"
-        border-radius="8px 8px 0 0"
-      >
+      <mj-section padding="10px 31px" background-color="#ffffff">
         <mj-column>
           <mj-text
             font-family="Inter, sans-serif"
@@ -78,11 +79,7 @@
         </mj-column>
       </mj-section>
 
-      <mj-section
-        padding="0px 31px"
-        background-color="#ffffff"
-        border-radius="8px 8px 0 0"
-      >
+      <mj-section padding="0px 31px" background-color="#ffffff">
         <mj-column>
           <mj-text
             font-family="Inter, sans-serif"
@@ -100,11 +97,7 @@
         </mj-column>
       </mj-section>
 
-      <mj-section
-        padding="0px 31px"
-        background-color="#ffffff"
-        border-radius="8px 8px 0 0"
-      >
+      <mj-section padding="0px 31px" background-color="#ffffff">
         <mj-column>
           <mj-text
             font-family="Inter, sans-serif"
@@ -118,11 +111,7 @@
         </mj-column>
       </mj-section>
 
-      <mj-section
-        padding="10px 31px"
-        background-color="#ffffff"
-        border-radius="8px 8px 0 0"
-      >
+      <mj-section padding="50px 31px 10px" background-color="#ffffff">
         <mj-column>
           <mj-text
             font-family="Inter, sans-serif"
@@ -135,6 +124,234 @@
           </mj-text>
         </mj-column>
       </mj-section>
+
+      <mj-section
+        padding="0px 11px 10px"
+        background-color="#ffffff"
+        text-align="left"
+      >
+        <mj-column width="246px" padding="0 0 0 20px">
+          <mj-text
+            css-class="code"
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="18px"
+            line-height="22px"
+            color="#0C1014"
+          >
+            <div
+              style="
+                width: 116px;
+                margin: 0 auto;
+                background-color: #f1f1f1;
+                padding: 17px 35px;
+                border-radius: 8px;
+              "
+            >
+              MJ2-S23-Q77
+            </div>
+          </mj-text>
+        </mj-column>
+        <mj-column width="100px">
+          <mj-button
+            css-class="use-it"
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="18px"
+            line-height="22px"
+            color="#ffffff"
+            background-color="#1890FF"
+            border-radius="8px"
+            href="#"
+          >
+            Use it
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0px 31px 10px" background-color="#ffffff">
+        <mj-column>
+          <mj-text
+            font-family="Inter, sans-serif"
+            font-size="14px"
+            line-height="20px"
+            color="#b6b6b6"
+          >
+            *Full terms and conditions can be found here
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0px 56px 10px 31px" background-color="#ffffff">
+        <mj-column css-class="might-like">
+          <mj-text
+            align="left"
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="24px"
+            line-height="29px"
+            color="#0C1014"
+            >You might like</mj-text
+          >
+        </mj-column>
+        <mj-column css-class="discover-more">
+          <mj-button
+            align="right"
+            font-family="Inter, sans-serif"
+            font-weight="500"
+            font-size="15px"
+            line-height="18px"
+            color="#51ACFF"
+            background-color="transparent"
+            href="#"
+          >
+            Discover more
+            <img width="7px" src="assets/images/arrow-sm.png" alt="" />
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section
+        padding="0px 56px 80px 31px"
+        background-color="#ffffff"
+        border-radius="0 0 8px 8px"
+      >
+        <mj-column>
+          <mj-image width="128px" src="assets/images/sneakers.png" alt="" />
+          <mj-text
+            css-class="product-text"
+            font-family="Inter, sans-serif"
+            font-weight="600"
+            font-size="10px"
+            line-height="12px"
+            color="#0C1014"
+          >
+            New Balance MSX90RPB (Grey)
+          </mj-text>
+          <mj-text
+            css-class="product-text price"
+            font-family="Inter, sans-serif"
+            font-weight="500"
+            font-size="10px"
+            line-height="12px"
+            color="#515759"
+            >€135.00</mj-text
+          >
+        </mj-column>
+        <mj-column>
+          <mj-image width="128px" src="assets/images/socks.png" alt="" />
+          <mj-text
+            css-class="product-text"
+            font-family="Inter, sans-serif"
+            font-weight="600"
+            font-size="10px"
+            line-height="12px"
+            color="#0C1014"
+          >
+            Stussy Stripe Crew (White - Orange)
+          </mj-text>
+          <mj-text
+            css-class="product-text price"
+            css-class="product-text price"
+            font-family="Inter, sans-serif"
+            font-weight="500"
+            font-size="10px"
+            line-height="12px"
+            color="#515759"
+            >€20.00</mj-text
+          >
+        </mj-column>
+        <mj-column>
+          <mj-image width="128px" src="assets/images/bag.png" alt="" />
+          <mj-text
+            css-class="product-text"
+            font-family="Inter, sans-serif"
+            font-weight="600"
+            font-size="10px"
+            line-height="12px"
+            color="#0C1014"
+          >
+            Fjallqraven Kanken No.2 Total (Black)
+          </mj-text>
+          <mj-text
+            css-class="product-text price"
+            font-family="Inter, sans-serif"
+            font-weight="500"
+            font-size="10px"
+            line-height="12px"
+            color="#515759"
+            >€175.00</mj-text
+          >
+        </mj-column>
+      </mj-section>
     </mj-wrapper>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-text
+          align="center"
+          font-family="Inter, sans-serif"
+          font-weight="500"
+          font-size="14px"
+          line-height="24px"
+          color="#B6B6B6"
+        >
+          Partnership with the famous brands:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding="0">
+      <mj-section padding="0">
+        <mj-column css-class="company company-first">
+          <mj-image width="54px" src="assets/images/company-1.png" alt="" />
+        </mj-column>
+        <mj-column css-class="company" padding="0">
+          <mj-image width="48px" src="assets/images/company-2.png" alt="" />
+        </mj-column>
+        <mj-column css-class="company" padding="0">
+          <mj-image width="48px" src="assets/images/company-3.png" alt="" />
+        </mj-column>
+        <mj-column css-class="company" padding="0">
+          <mj-image width="48px" src="assets/images/company-4.png" alt="" />
+        </mj-column>
+        <mj-column css-class="company" padding="0">
+          <mj-image width="48px" src="assets/images/company-5.png" alt="" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section padding="50px 0px 0px">
+      <mj-group>
+        <mj-column css-class="unsub">
+          <mj-button
+            align="left"
+            font-family="Inter, sans-serif"
+            font-weight="500"
+            font-size="14px"
+            line-height="21px"
+            color="#1890FF"
+            background-color="transparent"
+            href="#"
+            >Follow @prfctfit on twitter→</mj-button
+          >
+        </mj-column>
+        <mj-column css-class="unsub">
+          <mj-button
+            align="right"
+            font-family="Inter, sans-serif"
+            font-weight="500"
+            font-size="12px"
+            line-height="21px"
+            color="#b6b6b6"
+            background-color="transparent"
+            text-decoration="underline"
+            href="#"
+          >
+            Unsubscribe
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
   </mj-body>
 </mjml>
